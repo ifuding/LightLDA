@@ -1,0 +1,32 @@
+﻿Build started 12/12/2017 2:08:22 AM.
+     1>Project "D:\lightlda\LightLDA\windows\infer\infer.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lightlda\LightLDA\windows\x64\Release\infer.exe" /INCREMENTAL:NO /NOLOGO multiverso.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\lightlda\LightLDA\windows\x64\Release\infer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lightlda\LightLDA\windows\x64\Release\infer.lib" /MACHINE:X64 x64\Release\infer.obj
+         x64\Release\inferer.obj
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static bool multiverso::lightlda::Config::inference" (?inference@Config@lightlda@multiverso@@2_NA)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static int multiverso::lightlda::Config::num_topics" (?num_topics@Config@lightlda@multiverso@@2HA)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: void __cdecl multiverso::lightlda::LocalModel::Init(void)" (?Init@LocalModel@lightlda@multiverso@@QEAAXXZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::LocalModel::LocalModel(class multiverso::lightlda::Meta *)" (??0LocalModel@lightlda@multiverso@@QEAA@PEAVMeta@12@@Z)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: void __cdecl multiverso::lightlda::Meta::Init(void)" (?Init@Meta@lightlda@multiverso@@QEAAXXZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::Meta::~Meta(void)" (??1Meta@lightlda@multiverso@@QEAA@XZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::Meta::Meta(void)" (??0Meta@lightlda@multiverso@@QEAA@XZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static int multiverso::lightlda::Config::num_local_workers" (?num_local_workers@Config@lightlda@multiverso@@2HA)
+     1>infer.obj : error LNK2001: unresolved external symbol "class multiverso::lightlda::IDataStream * __cdecl multiverso::lightlda::CreateDataStream(void)" (?CreateDataStream@lightlda@multiverso@@YAPEAVIDataStream@12@XZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static int multiverso::lightlda::Config::num_blocks" (?num_blocks@Config@lightlda@multiverso@@2HA)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: void __cdecl multiverso::lightlda::Document::GetDocTopicVector(class multiverso::Row<int> &)" (?GetDocTopicVector@Document@lightlda@multiverso@@QEAAXAEAV?$Row@H@3@@Z)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static bool multiverso::lightlda::Config::warm_start" (?warm_start@Config@lightlda@multiverso@@2_NA)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static int multiverso::lightlda::Config::num_iterations" (?num_iterations@Config@lightlda@multiverso@@2HA)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::AliasTable::~AliasTable(void)" (??1AliasTable@lightlda@multiverso@@QEAA@XZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::AliasTable::AliasTable(void)" (??0AliasTable@lightlda@multiverso@@QEAA@XZ)
+     1>infer.obj : error LNK2001: unresolved external symbol "public: static void __cdecl multiverso::lightlda::Config::Init(int,char * * const)" (?Init@Config@lightlda@multiverso@@SAXHQEAPEAD@Z)
+     1>inferer.obj : error LNK2001: unresolved external symbol "public: void __cdecl multiverso::lightlda::AliasTable::Clear(void)" (?Clear@AliasTable@lightlda@multiverso@@QEAAXXZ)
+     1>inferer.obj : error LNK2001: unresolved external symbol "public: int __cdecl multiverso::lightlda::AliasTable::Build(int,class multiverso::lightlda::ModelBase *)" (?Build@AliasTable@lightlda@multiverso@@QEAAHHPEAVModelBase@23@@Z)
+     1>inferer.obj : error LNK2001: unresolved external symbol "public: void __cdecl multiverso::lightlda::AliasTable::Init(class multiverso::lightlda::AliasTableIndex *)" (?Init@AliasTable@lightlda@multiverso@@QEAAXPEAVAliasTableIndex@23@@Z)
+     1>inferer.obj : error LNK2001: unresolved external symbol "public: int __cdecl multiverso::lightlda::LightDocSampler::SampleOneDoc(class multiverso::lightlda::Document *,int,int,class multiverso::lightlda::ModelBase *,class multiverso::lightlda::AliasTable *)" (?SampleOneDoc@LightDocSampler@lightlda@multiverso@@QEAAHPEAVDocument@23@HHPEAVModelBase@23@PEAVAliasTable@23@@Z)
+     1>inferer.obj : error LNK2001: unresolved external symbol "public: __cdecl multiverso::lightlda::LightDocSampler::LightDocSampler(void)" (??0LightDocSampler@lightlda@multiverso@@QEAA@XZ)
+     1>D:\lightlda\LightLDA\windows\x64\Release\infer.exe : fatal error LNK1120: 21 unresolved externals
+     1>Done Building Project "D:\lightlda\LightLDA\windows\infer\infer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.58

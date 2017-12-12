@@ -6,9 +6,9 @@
 #define LIGHTLDA_INFERER_H_
 
 // #include <pthread.h>
-#include <multiverso/multiverso.h>
-#include <multiverso/log.h>
-#include <multiverso/barrier.h>
+#include "multiverso/multiverso.h"
+#include "multiverso/log.h"
+#include "multiverso/barrier.h"
 
 namespace multiverso 
 { 

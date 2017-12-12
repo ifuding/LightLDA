@@ -1,0 +1,29 @@
+﻿Build started 12/12/2017 1:26:35 AM.
+     1>Project "D:\lightlda\LightLDA\windows\lightlda\lightlda.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\alias_table.cpp ..\..\src\data_block.cpp ..\..\src\data_stream.cpp ..\..\src\document.cpp ..\..\src\eval.cpp ..\..\src\lightlda.cpp ..\..\src\meta.cpp ..\..\src\model.cpp ..\..\src\sampler.cpp ..\..\src\trainer.cpp
+         alias_table.cpp
+     1>d:\lightlda\lightlda\src\model.h(13): fatal error C1083: Cannot open include file: 'multiverso/meta.h': No such file or directory
+         data_block.cpp
+     1>d:\lightlda\lightlda\src\data_block.h(11): fatal error C1083: Cannot open include file: 'multiverso/multiverso.h': No such file or directory
+         data_stream.cpp
+     1>d:\lightlda\lightlda\src\data_block.h(11): fatal error C1083: Cannot open include file: 'multiverso/multiverso.h': No such file or directory
+         document.cpp
+     1>..\..\src\document.cpp(3): fatal error C1083: Cannot open include file: 'multiverso/row.h': No such file or directory
+         eval.cpp
+     1>d:\lightlda\lightlda\src\trainer.h(11): fatal error C1083: Cannot open include file: 'multiverso/multiverso.h': No such file or directory
+         lightlda.cpp
+     1>d:\lightlda\lightlda\src\trainer.h(11): fatal error C1083: Cannot open include file: 'multiverso/multiverso.h': No such file or directory
+         meta.cpp
+     1>..\..\src\meta.cpp(5): fatal error C1083: Cannot open include file: 'multiverso/log.h': No such file or directory
+         model.cpp
+     1>d:\lightlda\lightlda\src\model.h(13): fatal error C1083: Cannot open include file: 'multiverso/meta.h': No such file or directory
+         sampler.cpp
+     1>d:\lightlda\lightlda\src\model.h(13): fatal error C1083: Cannot open include file: 'multiverso/meta.h': No such file or directory
+         trainer.cpp
+     1>d:\lightlda\lightlda\src\trainer.h(11): fatal error C1083: Cannot open include file: 'multiverso/multiverso.h': No such file or directory
+     1>Done Building Project "D:\lightlda\LightLDA\windows\lightlda\lightlda.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.59

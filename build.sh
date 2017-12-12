@@ -1,8 +1,8 @@
 # build lightlda
 
-git clone -b multiverso-initial git@github.com:Microsoft/multiverso.git
+#git clone -b multiverso-initial git@github.com:Microsoft/multiverso.git
 
-cd multiverso
+cd Multiverso
 cd third_party
 sh install.sh
 cd ..

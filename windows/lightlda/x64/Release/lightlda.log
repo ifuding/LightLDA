@@ -1,0 +1,37 @@
+﻿Build started 12/12/2017 2:00:12 AM.
+     1>Project "D:\lightlda\LightLDA\windows\lightlda\lightlda.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\src\alias_table.cpp ..\..\src\common.cpp ..\..\src\data_block.cpp ..\..\src\data_stream.cpp ..\..\src\document.cpp ..\..\src\eval.cpp ..\..\src\lightlda.cpp ..\..\src\meta.cpp ..\..\src\model.cpp ..\..\src\sampler.cpp ..\..\src\trainer.cpp
+         alias_table.cpp
+         common.cpp
+         data_block.cpp
+     1>..\..\src\data_block.cpp(44): warning C4101: 'ba' : unreferenced local variable
+     1>..\..\src\data_block.cpp(51): warning C4101: 'ba' : unreferenced local variable
+         data_stream.cpp
+         document.cpp
+         eval.cpp
+         lightlda.cpp
+         meta.cpp
+         model.cpp
+         sampler.cpp
+         trainer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lightlda\LightLDA\windows\x64\Release\lightlda.exe" /INCREMENTAL:NO /NOLOGO multiverso.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\lightlda\LightLDA\windows\x64\Release\lightlda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lightlda\LightLDA\windows\x64\Release\lightlda.lib" /MACHINE:X64 x64\Release\alias_table.obj
+         x64\Release\common.obj
+         x64\Release\data_block.obj
+         x64\Release\data_stream.obj
+         x64\Release\document.obj
+         x64\Release\eval.obj
+         x64\Release\lightlda.obj
+         x64\Release\meta.obj
+         x64\Release\model.obj
+         x64\Release\sampler.obj
+         x64\Release\trainer.obj
+         Generating code
+         Finished generating code
+         lightlda.vcxproj -> D:\lightlda\LightLDA\windows\x64\Release\lightlda.exe
+     1>Done Building Project "D:\lightlda\LightLDA\windows\lightlda\lightlda.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.29
